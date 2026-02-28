@@ -1,6 +1,6 @@
 import { GitHubIcon } from '@/components/icons'
 import { Badge, Heading, Text } from "@/components/ui";
-// import { CHANGELOG_ENTRIES } from "@/lib/changelog-data";
+import { CHANGELOG_ENTRIES, type ChangelogEntry } from "@/lib/changelog-data";
 import { Metadata } from "next";
 import { Header } from "@/components/header";
 import { FooterSmall } from "@/components/footer-small";
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
 };
 
 export default function ChangelogPage() {
-  // Temporary: CHANGELOG_ENTRIES data structure needs to be defined
-  const sortedEntries: any[] = [];
+  const sortedEntries: ChangelogEntry[] = [...CHANGELOG_ENTRIES]
+    .sort((a, b) => b.timeStamp - a.timeStamp);
 
   // Helper to parse [Text](URL) into Teal Links
   const formatChangelogText = (text: string) => {
@@ -70,7 +70,7 @@ export default function ChangelogPage() {
               <Text className="text-muted-foreground">Changelog entries will appear here soon.</Text>
             </div>
           ) : (
-            sortedEntries.map((entry: any) => (
+            sortedEntries.map((entry) => (
             <article key={entry.timeStamp} className="relative grid grid-cols-1 md:grid-cols-[140px_1fr] gap-8 md:gap-12 pb-16 border-b border-border last:border-0">
 
               {/* Left Column: Date & Version */}

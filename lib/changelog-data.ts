@@ -1,7 +1,3 @@
-/**
- * Changelog entries for the GSoC Orgs platform
- */
-
 export interface ChangelogPRLink {
   number: string;
   link: string;

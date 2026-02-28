@@ -212,17 +212,3 @@ export const defaultViewport = {
   margin: "0px 0px -100px 0px",
   amount: 0.2
 };
-
-/**
- * Gets animation variants with reduced motion support
- * Returns no-op variants if user prefers reduced motion
- */
-export const getAccessibleVariants = (variants: Variants): Variants => {
-  if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    return {
-      hidden: { opacity: 0 },
-      visible: { opacity: 1, transition: { duration: 0.01 } }
-    };
-  }
-  return variants;
-};
