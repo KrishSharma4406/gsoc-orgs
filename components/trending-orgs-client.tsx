@@ -11,7 +11,7 @@ import {
 import type { CarouselApi } from "@/components/ui/carousel";
 import { Section, Heading } from "@/components/ui";
 import type { FeaturedOrg } from "@/lib/homepage-types";
-import { fadeInUp, scaleOnHover, defaultViewport } from "@/lib/animations";
+import { fadeInUp, defaultViewport } from "@/lib/animations";
 
 interface TrendingOrgsProps {
   organizations: FeaturedOrg[];

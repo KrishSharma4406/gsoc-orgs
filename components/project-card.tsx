@@ -48,8 +48,9 @@ export function ProjectCard({ project, className = "" }: ProjectCardProps) {
       initial="hidden"
       whileInView="visible"
       viewport={defaultViewport}
+      className="h-full"
     >
-      <CardWrapper padding="md" hover className={cn("flex flex-col relative", className)}>
+      <CardWrapper padding="md" hover className={cn("flex flex-col relative h-full", className)}>
       {/* Difficulty Badge */}
       {project.difficulty && (
         <div className="absolute top-4 left-4 flex items-center gap-2">

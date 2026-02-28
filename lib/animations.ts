@@ -206,12 +206,11 @@ export const scaleIn: Variants = {
 
 /**
  * Default viewport options for scroll animations
- * Triggers animation when element is 20% visible
  */
 export const defaultViewport = {
-  once: true, // Animate only once
-  margin: "0px 0px -100px 0px", // Trigger slightly before entering viewport
-  amount: 0.2 // Trigger when 20% visible
+  once: true,
+  margin: "0px 0px -100px 0px",
+  amount: 0.2
 };
 
 /**

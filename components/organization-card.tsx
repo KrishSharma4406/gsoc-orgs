@@ -48,12 +48,13 @@ export function OrganizationCard({
       initial="hidden"
       whileInView="visible"
       viewport={defaultViewport}
+      className="h-full"
     >
       <Link 
         href={`/organizations/${org.slug}`}
         prefetch={true}
         className={cn(
-          "block bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-gray-300 transition-all w-full",
+          "block bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-gray-300 transition-all w-full h-full",
           "dark:bg-card dark:border-border dark:hover:border-gray-600",
           className
         )}

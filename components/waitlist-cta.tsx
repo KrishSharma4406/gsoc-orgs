@@ -79,7 +79,7 @@ export function WaitlistCTA({ className }: WaitlistCTAProps) {
               initial="hidden"
               whileInView="visible"
               viewport={defaultViewport}
-              className="inline-flex items-center gap-2 rounded-full border border-grey px-4 py-2 text-xs font-semibold text-black"
+              className="inline-flex items-center gap-2 rounded-full border border-gray-200 px-4 py-2 text-xs font-semibold text-foreground dark:border-gray-700"
             >
               <Sparkles className="size-4" />
               <span>Coming Soon</span>

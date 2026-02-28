@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import { Quote } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { fadeInUp, staggerContainer, staggerItem, defaultViewport } from "@/lib/animations";
+import { fadeInUp, defaultViewport } from "@/lib/animations";
 
 interface Testimonial {
   id: string;
