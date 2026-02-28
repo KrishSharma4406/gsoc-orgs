@@ -19,7 +19,7 @@ interface TrendingOrgsProps {
 
 /**
  * TrendingOrgs Client Component
- * 
+ *
  * This component receives pre-loaded data from the server.
  * NO API calls - data is passed as props from static JSON.
  */

@@ -30,9 +30,10 @@ export function OrganizationsBlock() {
                 Explore 200+ GSoC Organizations
               </h2>
               <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground">
-                Browse through all participating GSoC organizations with detailed 
-                profiles, tech stacks, project ideas, and historical performance data. 
-                Filter by language, category, or beginner-friendliness to find your perfect match.
+                Browse through all participating GSoC organizations with
+                detailed profiles, tech stacks, project ideas, and historical
+                performance data. Filter by language, category, or
+                beginner-friendliness to find your perfect match.
               </p>
             </div>
           </motion.div>
@@ -98,9 +99,10 @@ export function PreviousEditionsBlock() {
                 Learn from Past GSoC Years
               </h2>
               <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground">
-                Access comprehensive data from GSoC 2016 to 2025. Study past projects, 
-                understand what worked, see mentor patterns, and identify organizations 
-                with consistent participation and high success rates.
+                Access comprehensive data from GSoC 2016 to 2025. Study past
+                projects, understand what worked, see mentor patterns, and
+                identify organizations with consistent participation and high
+                success rates.
               </p>
             </div>
           </motion.div>
@@ -134,9 +136,10 @@ export function TechStackBlock() {
                 Find Orgs by Technology
               </h2>
               <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground">
-                Python, JavaScript, Rust, Go, or any other language — filter organizations 
-                by your preferred tech stack. See which technologies are trending in GSoC 
-                and match your skills with the right opportunities.
+                Python, JavaScript, Rust, Go, or any other language — filter
+                organizations by your preferred tech stack. See which
+                technologies are trending in GSoC and match your skills with the
+                right opportunities.
               </p>
             </div>
           </motion.div>
@@ -202,9 +205,10 @@ export function AnalyticsBlock() {
                 Data-Driven Insights
               </h2>
               <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground">
-                Make informed decisions with visual analytics. Track organization trends, 
-                compare acceptance rates, analyze project difficulty distributions, and 
-                discover patterns that increase your selection chances.
+                Make informed decisions with visual analytics. Track
+                organization trends, compare acceptance rates, analyze project
+                difficulty distributions, and discover patterns that increase
+                your selection chances.
               </p>
             </div>
           </motion.div>
